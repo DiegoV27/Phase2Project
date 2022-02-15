@@ -1,12 +1,40 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import MovieCard from "./MovieCard"
+import SearchBar from "./SearchBar";
 
 // this is where we map through the json to get every movie
-function MovieList() {
-    return (
-      <div>
-        <h1>All Movies</h1>
-      </div>
-    );
-  }
+
+function MovieList({search, onSearch}) {
+
+
+  const [movies, setMovies] = useState([])
+
+  useEffect(() => {
+    fetch("http://localhost:3000/movies")
+      .then((r) => r.json())
+      .then(MovieArray => {
+        setMovies(MovieArray)
+      })
+  }, [])
+
+
+
+  // const filteredMovies = movies.filter((movie) => {
+  //   return movie.name.toLowerCase().includes(search.toLowerCase())
+  // })
+  
+  
+
+  return (
+    <main>
+      <ul className="cards">
+        {movies.map((movie) => {
+          return (<MovieCard key={movie.id} movie={movie} />)
+        })}
+        <SearchBar onSearch={onSearch}/>
+      </ul>
+    </main>
+  );
+}
 
 export default MovieList
