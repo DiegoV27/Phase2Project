@@ -19,19 +19,19 @@ function MovieList({search, onSearch}) {
 
 
 
-  // const filteredMovies = movies.filter((movie) => {
-  //   return movie.name.toLowerCase().includes(search.toLowerCase())
-  // })
+  const filteredMovies = movies.filter((movie) => {
+    return movie.name.toLowerCase().includes(search.toLowerCase())
+  })
   
   
 
   return (
     <main>
       <ul className="cards">
-        {movies.map((movie) => {
+      <SearchBar onSearch={onSearch}/>
+        {filteredMovies.map((movie) => {
           return (<MovieCard key={movie.id} movie={movie} />)
         })}
-        <SearchBar onSearch={onSearch}/>
       </ul>
     </main>
   );

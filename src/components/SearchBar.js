@@ -11,16 +11,17 @@ function SearchBar({onSearch}) {
 
 
   return (
-    <div className="searchbar" onSubmit={handleSubmit}>
+    <form className="searchbar" onSubmit={handleSubmit}>
       <label htmlFor="search">Search Movies:</label>
       <input
         type="text"
         id="search"
         placeholder="Type a name to search..."
         value={currentSearch}
-        onChange={(e) => setCurrentSearch("Searching...")}
+        onChange={(e) => setCurrentSearch(e.target.value)}
       />
-    </div>
+      <button type="submit">🔍</button>
+    </form>
   );
 }
 
