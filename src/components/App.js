@@ -1,23 +1,34 @@
-import React from "react";
+import React, {useState} from "react";
 import Home from "./Home"
 import {Route, Switch} from "react-router-dom"
 import MovieList from "./MovieList";
 import TopMovieList from "./TopMovieList";
+import NavBar from "./NavBar";
+
 
 function App() {
+  const [search, setSearch] = useState('')
+
+  function handleSearch(newSearch) {
+      setSearch(newSearch)
+  }
+
+
   return (
     <div>
-       <Switch>
-      <Route path="/">
-      <Home />
-    </Route>
+      <NavBar />
+      <Switch>
     <Route path="/MovieList">
-        <MovieList />
+        <MovieList onSearch={handleSearch} />
         </Route>
         <Route path="/TopMovieList">
         <TopMovieList />
       </Route>
-      </Switch>
+      <Route exact path="/">
+      <Home />
+    </Route>
+        </Switch>
+
         </div>
   );
 }
