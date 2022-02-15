@@ -1,63 +1,55 @@
 {
-    "movies": [
-      {
-        "id": 1,
-        "name": "Lion King",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRceL280RxTJPWEtBoB6o35EDnrwszkrzkqM0HRTkwthI8tMlMOqGFJzLyIhasZ&s=10"
-    
-      },
-      {
-        "id": 2,
-        "name": "Tarzan",
-        "image": "https://decider.com/wp-content/uploads/2020/06/tarzan-1999-movie.jpg?quality=80&strip=all&w=1200"
-      },
-      {
-        "id": 3,
-        "name": "Hercules",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFkp2ne0q-IticIpRMIevE5q_VYR7mQJqyf_3hwtKGE7wNVGx1EnKFx3cIVARW&s=10"
-      
-      },
-      {
-        "id": 4,
-        "name": "Shrek",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvQ917Pmlz6Eawrzi3FbsD3h5_nRCY9B1hHA1Z3GCjZsPRphJtU5ra0mrzweEI&s=10"
-       
-      },
-      {
-        "id": 5,
-        "name": "Cars",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsb-DPYsqizqNHxtu9ZCFsRjj0ga75TVYeL-QHvfXVRs8hPc9x3VrFmxv3xQSL&s=10"
-       
-      },
-      {
-        "id": 6,
-        "name": "Toy Story",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwE696_jaRhE6jdZDzQND2V05hhg9QT0bpzAEdl2t4LsbPcwgJ9PYcCBlLnr8I&s=10"
-        
-      },
-      {
-        "id": 7,
-        "name": "Beauty and the beast",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeRELQpIDrfETpOoyA04JGI2J1K2cSlf8ieIjv34MXiUAz2_KobRsnZ0rlNjTx&s=10"
-        
-      },
-      {
-        "id": 8,
-        "name": "Monsters inc",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAMRJJLZiA1SW_ZqJHY0lXqErcavb9GnCv3-voCR12nSeR9RrOlHdVV0FNiutI&s=10"
-        
-      },
-      {
-        "id": 9,
-        "name": "Sleeping Beauty",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0QXaUPeYCXJhlxZ6CLZMttIU91y8cYUuSgbuHOt9HxzhW6Tx1ufS2hjwhvtE5&s=10"
-        
-      },
-      {
-        "id": 10,
-        "name": "Mulan",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmFHtCAXYbChTJ3pha4HYz4FW7c41xv6jVcFedXOY-HjMrBQ5XoxPNHl4ff-66&s=10"
-    
-      }
-    ]
-  }
+  "movies": [
+    {
+      "id": 1,
+      "name": "Lion King",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRceL280RxTJPWEtBoB6o35EDnrwszkrzkqM0HRTkwthI8tMlMOqGFJzLyIhasZ&s=10"
+    },
+    {
+      "id": 2,
+      "name": "Tarzan",
+      "image": "https://decider.com/wp-content/uploads/2020/06/tarzan-1999-movie.jpg?quality=80&strip=all&w=1200"
+    },
+    {
+      "id": 3,
+      "name": "Hercules",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFkp2ne0q-IticIpRMIevE5q_VYR7mQJqyf_3hwtKGE7wNVGx1EnKFx3cIVARW&s=10"
+    },
+    {
+      "id": 4,
+      "name": "Shrek",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvQ917Pmlz6Eawrzi3FbsD3h5_nRCY9B1hHA1Z3GCjZsPRphJtU5ra0mrzweEI&s=10"
+    },
+    {
+      "id": 5,
+      "name": "Cars",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsb-DPYsqizqNHxtu9ZCFsRjj0ga75TVYeL-QHvfXVRs8hPc9x3VrFmxv3xQSL&s=10"
+    },
+    {
+      "id": 6,
+      "name": "Toy Story",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwE696_jaRhE6jdZDzQND2V05hhg9QT0bpzAEdl2t4LsbPcwgJ9PYcCBlLnr8I&s=10"
+    },
+    {
+      "id": 7,
+      "name": "Beauty and the beast",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeRELQpIDrfETpOoyA04JGI2J1K2cSlf8ieIjv34MXiUAz2_KobRsnZ0rlNjTx&s=10"
+    },
+    {
+      "id": 8,
+      "name": "Monsters inc",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAMRJJLZiA1SW_ZqJHY0lXqErcavb9GnCv3-voCR12nSeR9RrOlHdVV0FNiutI&s=10"
+    },
+    {
+      "id": 9,
+      "name": "Sleeping Beauty",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0QXaUPeYCXJhlxZ6CLZMttIU91y8cYUuSgbuHOt9HxzhW6Tx1ufS2hjwhvtE5&s=10"
+    },
+    {
+      "id": 10,
+      "name": "Mulan",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmFHtCAXYbChTJ3pha4HYz4FW7c41xv6jVcFedXOY-HjMrBQ5XoxPNHl4ff-66&s=10"
+    }
+  ],
+  "topList": []
+}

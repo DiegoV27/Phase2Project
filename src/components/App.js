@@ -19,7 +19,7 @@ function App() {
       <NavBar />
       <Switch>
     <Route path="/MovieList">
-        <MovieList onSearch={handleSearch} />
+        <MovieList onSearch={handleSearch} search={search} />
         </Route>
         <Route path="/TopMovieList">
         <TopMovieList />
