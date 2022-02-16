@@ -7,6 +7,10 @@ function TopMovieList() {
     const [name, setName] = useState("")
     const [image, setImage] = useState("")
   const [moviesList, setMoviesList] = useState([])
+
+  const topMovieListStyle = {
+    textAlign: "center"
+  }
   
 
   useEffect(() => {
@@ -41,7 +45,7 @@ function TopMovieList() {
     }
 
     return (
-      <div>
+      <div style={topMovieListStyle}>
         <h1>Add Movie</h1>
         <form onSubmit={handleNewMovie}>
           <div>
