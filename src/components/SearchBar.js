@@ -2,6 +2,10 @@ import React, { useState }from "react";
 
 function SearchBar({onSearch}) {
 
+  const searchStyle = {
+    textAlign: "center"
+  }
+
   function handleSubmit(e) {
     e.preventDefault();
     onSearch(currentSearch);
@@ -11,7 +15,7 @@ function SearchBar({onSearch}) {
 
 
   return (
-    <form className="searchbar" onSubmit={handleSubmit}>
+    <form style={searchStyle} className="searchbar" onSubmit={handleSubmit}>
       <label htmlFor="search">Search Movies:</label>
       <input
         type="text"

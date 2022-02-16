@@ -5,8 +5,8 @@ function NavBar() {
 
     const linkStyles = {
         display: "inline-block",
-        width: "50px",
-        padding: "12px",
+        width: "90px",
+        padding: "10px",
         margin: "0 6px 6px",
         background: "blue",
         textDecoration: "none",
