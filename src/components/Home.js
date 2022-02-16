@@ -3,12 +3,20 @@ import React from "react"
 function Home() {
 
     const homeStyle = {
-        backgroundColor: "blue",
+        backgroundSize: "cover",
         padding: "10px 20px",
         textAlign: "center",
         color: "white",
-        fontSize: "22px"
+        fontSize: "22px",
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        width: '100vw',
+        height: '100vh',
+        textShadow: "0 0 25px black",
+       
+       backgroundImage: `url("https://blog.ipleaders.in/wp-content/uploads/2021/07/disney-magic-kingdom-castle-illustration.jpg")`
     }
+
     return (
         <div style={homeStyle}>
             <h1>Welcome!</h1>

@@ -3,12 +3,14 @@ import React, { useState }from "react";
 function SearchBar({onSearch}) {
 
   const searchStyle = {
-    textAlign: "center"
+    textAlign: "center",
+   
   }
 
   function handleSubmit(e) {
     e.preventDefault();
     onSearch(currentSearch);
+
   }
 
   const [currentSearch, setCurrentSearch] = useState('')

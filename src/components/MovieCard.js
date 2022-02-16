@@ -4,7 +4,15 @@ function MovieCard({ movie }) {
 
   const movieStyle = {
     textAlign: "center",
-    padding: "30px"
+    padding: "30px",
+    listStyle: "none",
+    margin: "1rem",
+    marginTop: "0.5rem",
+    
+    
+    //backgroundImage: `url("https://cdn.wallpapersafari.com/25/35/08QE74.jpg")`,
+    
+
   }
   
 

@@ -13,8 +13,7 @@ function NavBar() {
         color: "white",
       };
     return (
-        <div>
-        
+      <div>
       <NavLink
         to="/"
         exact
@@ -43,8 +42,9 @@ function NavBar() {
         }}
       >
        Your Top List
-      </NavLink>
-        </div>
+        </NavLink>
+      </div>
+      
     )
 }
 
