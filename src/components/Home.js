@@ -4,8 +4,9 @@ function Home() {
 
     const homeStyle = {
         backgroundSize: "cover",
-        padding: "10px 20px",
+        padding: "10px 5px",
         textAlign: "center",
+        contentAlign: "center",
         color: "white",
         fontSize: "22px",
         backgroundPosition: 'center',
@@ -13,6 +14,7 @@ function Home() {
         width: '100vw',
         height: '100vh',
         textShadow: "0 0 25px black",
+       
        
        backgroundImage: `url("https://blog.ipleaders.in/wp-content/uploads/2021/07/disney-magic-kingdom-castle-illustration.jpg")`
     }
