@@ -9,7 +9,7 @@ function TopMovieList() {
   const [moviesList, setMoviesList] = useState([])
 
   const topMovieListStyle = {
-    textAlign: "center"
+    textAlign: "center",
   }
   
 
