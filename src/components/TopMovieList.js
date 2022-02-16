@@ -1,12 +1,30 @@
 // this is where users add their own list using a form
 import React, {useState, useEffect} from "react";
+import MovieCard from "./MovieCard";
 
 
 function TopMovieList() {
     const [name, setName] = useState("")
     const [image, setImage] = useState("")
-    // const [new, setNew] = useState("")
-    function handleAddMovie(newMovie) {
+  const [moviesList, setMoviesList] = useState([])
+  
+
+  useEffect(() => {
+    fetch("http://localhost:3000/topList")
+      .then((r) => r.json())
+      .then((newMovieArray) => {
+      setMoviesList(newMovieArray)
+    })
+  }, [])
+
+  function handleAddMovie(newMovie) {
+    const updatedMovieArray = [...moviesList, newMovie]
+    setMoviesList(updatedMovieArray)
+  }
+  
+  
+  function handleNewMovie(e) {
+      e.preventDefault()
         fetch("http://localhost:3000/topList", {
             method: "POST", 
             headers: {
@@ -16,15 +34,16 @@ function TopMovieList() {
                 name:name,
                 image:image
             })
-        }) .then((resp) => resp.json())
-            .then((newMovie) => console.log(newMovie))
+        }).then((resp) => resp.json())
+        
+        .then((newMovie) => handleAddMovie(newMovie))
 
     }
 
     return (
       <div>
         <h1>Add Movie</h1>
-        <form onSubmit={handleAddMovie}>
+        <form onSubmit={handleNewMovie}>
           <div>
             <input type="text" name="movie name" placeholder="Movie Name" value={name} onChange={(e)=> setName (e.target.value)} />
           </div>
@@ -33,6 +52,13 @@ function TopMovieList() {
           </div>
           <input type="submit" value="Submit" />
         </form>
+          {
+            moviesList.map((movie) => {
+              return <MovieCard movie={movie}/>
+            })
+          }
+            
+        
       </div>
     );
   }
