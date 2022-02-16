@@ -4,7 +4,7 @@ import {Route, Switch} from "react-router-dom"
 import MovieList from "./MovieList";
 import TopMovieList from "./TopMovieList";
 import NavBar from "./NavBar";
-
+ 
 
 function App() {
   const [search, setSearch] = useState('')
@@ -13,11 +13,17 @@ function App() {
       setSearch(newSearch)
   }
 
-  
+  const style = {
+    backgroundColor: "#ebfbff",
+    padding: "30px 0",
+    flexDirection: "row",
+    width: "100vw",
+    height: "100%",
+  }  
 
 
   return (
-    <div>
+      <header style={style}>
       <NavBar />
       <Switch>
     <Route path="/MovieList">
@@ -30,7 +36,8 @@ function App() {
       <Home />
     </Route>
         </Switch>
-        </div>
+        </header>
+      
   );
 }
 
