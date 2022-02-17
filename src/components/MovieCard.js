@@ -16,7 +16,7 @@ function MovieCard({ movie }) {
   }
   
 
-  const {image, name } = movie;
+  const {image, name, description } = movie;
 
 
   return (
@@ -28,6 +28,9 @@ function MovieCard({ movie }) {
       <div className="details">
         <strong>{name}</strong>
       </div> 
+      <div>
+      <strong>{description}</strong>
+      </div>
     </ul>
   );
 }

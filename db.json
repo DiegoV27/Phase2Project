@@ -2,53 +2,64 @@
   "movies": [
     {
       "id": 1,
-      "name": "Lion King",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRceL280RxTJPWEtBoB6o35EDnrwszkrzkqM0HRTkwthI8tMlMOqGFJzLyIhasZ&s=10"
+      "name": "1) Lion King",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRceL280RxTJPWEtBoB6o35EDnrwszkrzkqM0HRTkwthI8tMlMOqGFJzLyIhasZ&s=10",
+      "description": "It’s the third-highest grossing animated film in history."
+
     },
     {
       "id": 2,
-      "name": "Mermaid",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7rhuk7a4QZHvHDH9j9QFGoGZn0xRlseNBrboVbWcbyPYVam5w2cJTr3akDexa&s=10"
+      "name": "2) Mermaid",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7rhuk7a4QZHvHDH9j9QFGoGZn0xRlseNBrboVbWcbyPYVam5w2cJTr3akDexa&s=10",
+      "description": "The film won two Academy Awards for Best Original Score and Best Original Song (Under the Sea)."
     },
     {
       "id": 3,
-      "name": "Hercules",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFkp2ne0q-IticIpRMIevE5q_VYR7mQJqyf_3hwtKGE7wNVGx1EnKFx3cIVARW&s=10"
+      "name": "3) Hercules",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFkp2ne0q-IticIpRMIevE5q_VYR7mQJqyf_3hwtKGE7wNVGx1EnKFx3cIVARW&s=10",
+      "description": "Hercules earned $252.7 million in Box Office revenue worldwide"
     },
     {
       "id": 4,
-      "name": "Shrek",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvQ917Pmlz6Eawrzi3FbsD3h5_nRCY9B1hHA1Z3GCjZsPRphJtU5ra0mrzweEI&s=10"
+      "name": "4) Shrek",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvQ917Pmlz6Eawrzi3FbsD3h5_nRCY9B1hHA1Z3GCjZsPRphJtU5ra0mrzweEI&s=10",
+      "description": "After opening at No. 1 at the domestic box office, it went on to earn nearly $500 million worldwide on a production budget of $60 million. “Shrek” was widely praised by critics and went on to win the first Academy Award for best animated feature, beating out, among others, Pixar's “Monsters, Inc."
     },
     {
       "id": 5,
-      "name": "Cars",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsb-DPYsqizqNHxtu9ZCFsRjj0ga75TVYeL-QHvfXVRs8hPc9x3VrFmxv3xQSL&s=10"
+      "name": "5) Cars",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsb-DPYsqizqNHxtu9ZCFsRjj0ga75TVYeL-QHvfXVRs8hPc9x3VrFmxv3xQSL&s=10",
+      "description": "Won both the Annie Award for Best Animated Feature and the Golden Globe Award for Best Animated Feature Film"
     },
     {
       "id": 6,
-      "name": "Toy Story",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwE696_jaRhE6jdZDzQND2V05hhg9QT0bpzAEdl2t4LsbPcwgJ9PYcCBlLnr8I&s=10"
+      "name": "6) Toy Story",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwE696_jaRhE6jdZDzQND2V05hhg9QT0bpzAEdl2t4LsbPcwgJ9PYcCBlLnr8I&s=10",
+      "description": "The film was critically and financially successful, grossing over $373 million worldwide"
     },
     {
       "id": 7,
-      "name": "Beauty and the beast",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeRELQpIDrfETpOoyA04JGI2J1K2cSlf8ieIjv34MXiUAz2_KobRsnZ0rlNjTx&s=10"
+      "name": "7) Beauty and the beast",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeRELQpIDrfETpOoyA04JGI2J1K2cSlf8ieIjv34MXiUAz2_KobRsnZ0rlNjTx&s=10",
+      "description": "Beauty and the Beast has officially crossed the $1 billion mark at the box office. The live-action film, starring Emma Watson, is now this year's highest grossing film worldwide"
     },
     {
       "id": 8,
-      "name": "Monsters inc",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAMRJJLZiA1SW_ZqJHY0lXqErcavb9GnCv3-voCR12nSeR9RrOlHdVV0FNiutI&s=10"
+      "name": "8) Monsters inc",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAMRJJLZiA1SW_ZqJHY0lXqErcavb9GnCv3-voCR12nSeR9RrOlHdVV0FNiutI&s=10",
+      "description": "Monsters, Inc. received critical acclaim and was a commercial success, grossing over $577 million worldwide to become the third highest-grossing film of 2001"
     },
     {
       "id": 9,
-      "name": "Sleeping Beauty",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0QXaUPeYCXJhlxZ6CLZMttIU91y8cYUuSgbuHOt9HxzhW6Tx1ufS2hjwhvtE5&s=10"
+      "name": "9) Sleeping Beauty",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0QXaUPeYCXJhlxZ6CLZMttIU91y8cYUuSgbuHOt9HxzhW6Tx1ufS2hjwhvtE5&s=10",
+      "description": "During its original release in January 1959, Sleeping Beauty grossed approximately $5.3 million in theater rentals (the distributor's share of the box office gross) from the United States and Canada."
     },
     {
       "id": 10,
-      "name": "Mulan",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmFHtCAXYbChTJ3pha4HYz4FW7c41xv6jVcFedXOY-HjMrBQ5XoxPNHl4ff-66&s=10"
+      "name": "10) Mulan",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmFHtCAXYbChTJ3pha4HYz4FW7c41xv6jVcFedXOY-HjMrBQ5XoxPNHl4ff-66&s=10",
+      "description": "It grossed over $304 million. It earned a Golden Globe and Academy Award nomination and won several Annie Awards, including Best Animated Feature."
     }
   ],
   "topList": [
