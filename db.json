@@ -5,7 +5,6 @@
       "name": "1) Lion King",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRceL280RxTJPWEtBoB6o35EDnrwszkrzkqM0HRTkwthI8tMlMOqGFJzLyIhasZ&s=10",
       "description": "It’s the third-highest grossing animated film in history."
-
     },
     {
       "id": 2,
@@ -63,6 +62,6 @@
     }
   ],
   "topList": [
-   
+    
   ]
 }
